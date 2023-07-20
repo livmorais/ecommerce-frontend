@@ -1,0 +1,105 @@
+.modal-register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4); /* Contraste com o fundo */
+    overflow: hidden;
+  }
+
+.modal-register-container h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.modal-overlay-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .modal-register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    padding: 16px;
+    border-radius: 24px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+  }
+  
+  .div-register-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .label-register {
+    color: #242424;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 18px;
+
+  }
+  
+  .input-register {
+    padding: 12px;
+    border: 2px solid #c6c5c5c5;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 12px;
+    width: 130%;
+    margin-bottom: 12px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  select option {
+    padding: 12px;
+    border: 2px solid #c6c5c5c5;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 12px;
+    width: 360%;
+    margin-bottom: 12px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Estilização das opções ao passar o mouse */
+  select option:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilização da opção selecionada */
+  select option:checked {
+    background-color: #535bf2;
+    color: #fff;
+  }
+  select {
+    padding: 12px;
+    border: 2px solid #c6c5c5c5;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 12px;
+    width: 360%;
+    margin-bottom: 12px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  

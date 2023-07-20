@@ -1,0 +1,178 @@
+.user-checkout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.user-pages {
+    display: flex;
+      justify-content: space-around;
+      width: 100vw;
+      background-color: #333;
+      padding: 10px 20px;
+      display: inline-flex;
+      align-items: center;
+      list-style: none;
+  }
+  
+  .user-pages h2 {
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+  }
+  .user-pages ol {
+    
+    align-items: center;
+    justify-content: space-around;
+    display: inline-flex;
+    list-style: none;
+  }
+  
+  .user-pages ol li {
+    align-items: center;
+  }
+  
+  .user-pages ol button {
+    margin: 0;
+  }
+
+  .card-checkout {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff; /* Cor de fundo do formulário */
+  margin: 0 auto; /* Centralizar horizontalmente */
+  box-sizing: border-box; 
+  }
+  
+  .card-checkout input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc; /* Cor da borda dos campos de entrada */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .card-checkout button {
+    width: 100%;
+    padding: 10px;
+    background-color: #535bf2; /* Cor de fundo do botão "Create Checkout" */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+  }
+  
+  .card-checkout button:hover {
+    background-color: #646cff; /* Cor do botão ao passar o mouse */
+  }
+  
+  .checkout-container {
+    overflow: hidden;
+    height: 120vh;
+    width: 100vw;
+
+    align-items: center;
+    justify-content: center;
+
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.4); /* Cor de fundo da tela de checkout */
+    z-index: 999;
+  }
+  
+  .checkout-container h2 {
+    text-align: center;
+  }
+
+
+  .user-checkout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .user-pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .user-pages h2 {
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .user-pages a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-flex;
+  }
+  
+  .user-pages a button {
+    background-color: #333;
+  }
+  
+  /* Estilos gerais da tabela */
+  table {
+    width: 95%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Borda arredondada na tabela */
+    overflow: hidden;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  td ul li {
+    margin-bottom: 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    th,
+    td {
+      white-space: nowrap;
+    }
+  }
