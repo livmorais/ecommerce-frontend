@@ -4,6 +4,8 @@
 ![login](https://github.com/livmorais/ecommerce-frontend/blob/main/ecommerce-frontend/src/assets/screencapture-127-0-0-1-5173-2024-03-27-19_34_26.png)
 # API PRODUCTS
 ![api](https://github.com/livmorais/ecommerce-frontend/blob/main/ecommerce-frontend/src/assets/screencapture-127-0-0-1-5173-api-products-2024-03-27-19_38_26.png)
+# CREATE PRODUCT
+![create](https://github.com/livmorais/ecommerce-frontend/blob/main/ecommerce-frontend/src/assets/screencapture-127-0-0-1-5173-api-products-2024-03-27-20_17_28.png)
 # UPDATE PRODUCT
 ![update](https://github.com/livmorais/ecommerce-frontend/blob/main/ecommerce-frontend/src/assets/screencapture-127-0-0-1-5173-api-products-2024-03-27-19_38_36.png)
 # SALES
